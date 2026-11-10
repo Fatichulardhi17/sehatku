@@ -1,0 +1,15 @@
+{
+  "name": "sehatku-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Server Express statis untuk hasil build web Sehatku",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd .. && flutter build web --release",
+    "start": "node index.js",
+    "serve": "npm run build && npm start"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

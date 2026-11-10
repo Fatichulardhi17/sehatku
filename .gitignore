@@ -1,0 +1,20 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.idea/
+.vscode/
+*.iml
+.env
+.env.local
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+# Widget Preview related
+.widget_preview/
+# Server Express
+server/node_modules/
+# Build artifacts (APK)
+dist/
